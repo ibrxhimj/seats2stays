@@ -242,9 +242,9 @@ seats.addEventListener('input', chain); chain();
 (function(){ const cls=[...Array(13).fill('g0'),...Array(66).fill('g1'),...Array(14).fill('g2'),...Array(7).fill('g3')];
   document.getElementById('grid').innerHTML=cls.map(c=>`<i class="${c}"></i>`).join(''); })();
 const E=0.3117, ELO=0.197, EHI=0.426, sg=v=>(v>=0?'+':'−')+Math.abs(v).toFixed(1)+'%';
-function resp(){ const x=+p.value/100; pV.textContent=(x>=0?'+':'−')+Math.abs(x*100)+'%';
+function resp(){ const x=+p.value/100; const pv=+p.value; pV.textContent=(pv>=0?'+':'−')+Math.abs(pv)+'%';
   const f=e=>(Math.pow(1+x,e)-1)*100; ck.textContent=sg(f(E)); ckr.textContent='80% range '+sg(f(ELO))+' to '+sg(f(EHI));
-  naive.textContent=sg(x*100); drawResp(x); }
+  naive.textContent=(pv>=0?'+':'−')+Math.abs(pv)+'%'; drawResp(x); }
 function drawResp(x0){ const W=420,H=300,l=44,r=22,t=14,b=36, X=v=>l+(v+50)/150*(W-l-r), Y=v=>t+(100-v)/150*(H-t-b);
   let s=''; [-50,0,50,100].forEach(v=>{ s+=`<line x1="${l}" x2="${W-r}" y1="${Y(v)}" y2="${Y(v)}" stroke="#D6DDE1"/><text x="${l-6}" y="${Y(v)+4}" font-size="11" text-anchor="end" fill="#5A6A73">${v>0?'+':''}${v}%</text>`;
     s+=`<text x="${X(v)}" y="${H-12}" font-size="11" text-anchor="middle" fill="#5A6A73">${v>0?'+':''}${v}%</text>`; });
