@@ -1,0 +1,17 @@
+event,key_year,start_date,end_date,start_tolerance_days,end_confirmed,source,active
+school_winter_break,2021,2021-12-12,2022-01-02,7,True,approximate_moe_pattern,True
+school_summer_break,2021,2022-07-08,2022-08-28,7,True,published_first_day_29aug2022,True
+school_winter_break,2022,2022-12-12,2023-01-01,7,True,published_calendar_whichschooladvisor,True
+school_summer_break,2022,2023-07-07,2023-08-27,7,True,published_last_day_7jul2023_first_day_user_confirmed,True
+school_winter_break,2023,2023-12-11,2024-01-01,7,True,restart_2jan2024_user_confirmed,True
+school_summer_break,2023,2024-06-28,2024-08-25,7,True,published_gulfnews_first_day_26aug2024,True
+school_winter_break,2024,2024-12-16,2025-01-05,7,True,published_gulfnews,True
+school_summer_break,2024,2025-06-27,2025-08-24,7,True,published_first_day_25aug2025,True
+school_winter_break,2025,2025-12-08,2026-01-04,7,True,official_moe: 2025-26 calendar students winter break 8 Dec-4 Jan; return Mon 5 Jan 2026,True
+school_summer_break,2025,2026-07-03,2026-08-30,7,True,official_moe: 2025-26 calendar last student day Fri 3 Jul 2026; 2026-27 first day Mon 31 Aug 2026,True
+school_winter_break,2026,2026-12-14,2027-01-03,7,True,official_moe: 2026-27 calendar students winter break 14 Dec-1 Jan; return Mon 4 Jan 2027,True
+school_spring_break,2022,2023-03-27,2023-04-09,0,True,"official: MoE public schools 27 Mar-14 Apr, private international-curriculum schools 27 Mar-7 Apr 2023 (Gulf News 14 Mar 2023); window = all schools off (common restart Mon 10 Apr)",True
+school_spring_break,2023,2024-03-25,2024-04-14,0,True,"official: all UAE schools 25 Mar-14 Apr 2024 (Cabinet-approved 2023-26 calendar, WAM; Gulf Business 21 Mar 2024)",True
+school_spring_break,2024,2025-03-24,2025-04-06,0,True,"official: MoE-curriculum schools 24 Mar-13 Apr, Dubai private (KHDA) 24 Mar-6 Apr 2025 (Gulf News 20 Mar 2025; Gulf News 2024-25 calendar); window = all schools off (common restart Mon 7 Apr)",True
+school_spring_break,2025,2026-03-09,2026-03-22,0,True,"official: moved on 4 Mar 2026 to 9-22 Mar for all public and private schools and universities (was 16-29 Mar in the 2025-26 unified MoE calendar), amid the Iran war; remote learning until 6 Mar (Gulf News 4 Mar 2026)",True
+school_spring_break,2026,2027-04-05,2027-04-11,0,True,"official_moe: 2026-27 calendar spring break 5-9 Apr 2027 for students and staff, restart Mon 12 Apr (MoE PDF Academic-Calender-2026-2027-En)",True

@@ -1,0 +1,35 @@
+nationality,holiday,start,end,source
+BAHRAIN,national_day,2023-12-16,2023-12-17,Bahrain National Day (16-17 Dec)
+BAHRAIN,national_day,2024-12-16,2024-12-17,Bahrain National Day (16-17 Dec)
+BAHRAIN,national_day,2025-12-16,2025-12-17,Bahrain National Day (16-17 Dec)
+BAHRAIN,national_day,2026-12-16,2026-12-17,Bahrain National Day (16-17 Dec)
+CHINA,golden_week,2023-09-29,2023-10-06,China State Council 2023 holiday notice (Mid-Autumn + National Day combined)
+CHINA,golden_week,2024-10-01,2024-10-07,China State Council 2024 holiday notice
+CHINA,golden_week,2025-10-01,2025-10-08,China State Council 2025 holiday notice (National Day + Mid-Autumn; english.www.gov.cn 12 Nov 2024)
+CHINA,golden_week,2026-10-01,2026-10-07,China State Council 2026 holiday notice (1-7 Oct; make-up work days 20 Sep and 10 Oct)
+JAPAN,golden_week,2023-04-29,2023-05-05,Japan national holidays (Showa Day 29 Apr to Children's Day 5 May)
+JAPAN,golden_week,2024-04-29,2024-05-05,Japan national holidays (Showa Day 29 Apr to Children's Day 5 May)
+JAPAN,golden_week,2025-04-29,2025-05-05,Japan national holidays (Showa Day 29 Apr to Children's Day 5 May)
+JAPAN,golden_week,2026-04-29,2026-05-05,"Rule window Showa Day 29 Apr to Children's Day 5 May (as in training); official 2026: 29 Apr, 3-5 May + substitute 6 May"
+KUWAIT,national_days,2023-02-25,2023-02-26,Kuwait National Day (25 Feb) and Liberation Day (26 Feb)
+KUWAIT,national_days,2024-02-25,2024-02-26,Kuwait National Day (25 Feb) and Liberation Day (26 Feb)
+KUWAIT,national_days,2025-02-25,2025-02-26,Kuwait National Day (25 Feb) and Liberation Day (26 Feb)
+KUWAIT,national_days,2026-02-25,2026-02-26,Kuwait National Day (25 Feb) and Liberation Day (26 Feb)
+KUWAIT,national_days,2027-02-25,2027-02-26,Kuwait National Day (25 Feb) and Liberation Day (26 Feb)
+RUSSIAN FEDERATION,may_holidays,2023-05-01,2023-05-10,Labour Day (1 May) and Victory Day (9 May) with bridging days; generic 1-10 May window
+RUSSIAN FEDERATION,may_holidays,2024-05-01,2024-05-10,Labour Day (1 May) and Victory Day (9 May) with bridging days; generic 1-10 May window
+RUSSIAN FEDERATION,may_holidays,2025-05-01,2025-05-10,Labour Day (1 May) and Victory Day (9 May) with bridging days; generic 1-10 May window
+RUSSIAN FEDERATION,may_holidays,2026-05-01,2026-05-10,Rule window 1-10 May (as in training); official 2026 (Government decree of 24 Sep 2025): 1-3 May and 9-11 May
+SAUDI ARABIA,founding_day,2023-02-22,2023-02-22,Saudi Founding Day (fixed 22 Feb since 2022)
+SAUDI ARABIA,founding_day,2024-02-22,2024-02-22,Saudi Founding Day (fixed 22 Feb since 2022)
+SAUDI ARABIA,founding_day,2025-02-22,2025-02-22,Saudi Founding Day (fixed 22 Feb since 2022)
+SAUDI ARABIA,founding_day,2026-02-22,2026-02-22,Saudi Founding Day (fixed 22 Feb since 2022)
+SAUDI ARABIA,founding_day,2027-02-22,2027-02-22,Saudi Founding Day (fixed 22 Feb since 2022)
+SAUDI ARABIA,national_day,2023-09-23,2023-09-23,Saudi National Day (fixed 23 Sep)
+SAUDI ARABIA,national_day,2024-09-23,2024-09-23,Saudi National Day (fixed 23 Sep)
+SAUDI ARABIA,national_day,2025-09-23,2025-09-23,Saudi National Day (fixed 23 Sep)
+SAUDI ARABIA,national_day,2026-09-23,2026-09-23,Saudi National Day (fixed 23 Sep)
+SOUTH KOREA,chuseok,2023-09-28,2023-10-03,Chuseok 28-30 Sep + temporary holiday 2 Oct + National Foundation Day 3 Oct
+SOUTH KOREA,chuseok,2024-09-14,2024-09-18,Chuseok 16-18 Sep with the preceding weekend
+SOUTH KOREA,chuseok,2025-10-03,2025-10-09,Seven-day break: Foundation Day 3 Oct + Chuseok + Hangul Day 9 Oct (Korea Herald 10 Oct 2025)
+SOUTH KOREA,chuseok,2026-09-24,2026-09-27,"Chuseok 24-26 Sep + Sunday 27 Sep, no substitute holiday (KASI 2026 calendar notes, Hankyung 30 Jun 2025)"

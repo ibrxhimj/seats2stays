@@ -1,0 +1,6 @@
+{
+ "file": "data/reference/stagea_test_forecast_v1_scored.csv",
+ "sha256": "2d217ee1a81a7ebc88b7ddb4a67429ef4a1b8645aaa7bc3802069877b01e4224",
+ "scored_on": "2026-10-02 (Step 2.6)",
+ "note": "The Stage A test-window forecast (forecaster v1) that was scored ONCE against official test-window check-ins on 2 Oct 2026. Kept here as an immutable record; Step 2.6 scores this file and refuses to run if its fingerprint changes. Later forecaster versions are selected on folds A/B only and are never scored on the test window."
+}

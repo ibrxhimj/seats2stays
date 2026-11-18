@@ -1,0 +1,18 @@
+{
+ "name": "european_carriers_return",
+ "title": "European carriers stay away after their announced return dates (24-25 Oct 2026): the value of their return is minus this",
+ "kind": "announced routes",
+ "notes": [
+  "The normal world has these carriers flying all winter (last year's schedule). In 2026 they suspended Abu Dhabi during the war; Wego (4 Sep 2026, updated 4 Sep) reports Lufthansa Group and Wizz Air expected back on 24 Oct and British Airways on 25 Oct. Dates are provisional.",
+  "Lufthansa Group at AUH in the data = Eurowings (Berlin); Wizz Air = Katowice and Krakow; British Airways = London.",
+  "Each change cancels the carrier's routes from its return date to the end of the horizon: the result is what Abu Dhabi would lose if they did not come back; their return is worth the same amount with the sign reversed."
+ ],
+ "changes": [
+  {"type": "route", "market": "GERMANY", "airline": "Eurowings", "start": "2026-10-24", "end": "2027-02-28", "seats_pct": -100,
+   "source": "Wego 4 Sep 2026 (Lufthansa Group expected 24 Oct, provisional)"},
+  {"type": "route", "market": "POLAND", "airline": "Wizz Air", "start": "2026-10-24", "end": "2027-02-28", "seats_pct": -100,
+   "source": "Wego 4 Sep 2026 (Wizz Air expected 24 Oct, provisional)"},
+  {"type": "route", "market": "UNITED KINGDOM", "airline": "British Airways", "start": "2026-10-25", "end": "2027-02-28", "seats_pct": -100,
+   "source": "Wego 4 Sep 2026 (British Airways expected 25 Oct, provisional)"}
+ ]
+}

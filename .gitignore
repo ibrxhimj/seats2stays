@@ -1,0 +1,20 @@
+# Competition data and everything derived from it: licensed for use within ATP 2026 only. Never commit.
+data/raw/*
+!data/raw/README.md
+data/interim/
+data/processed/
+data/external/*
+!data/external/README.md
+data/reference/stagea_test_forecast_v1_scored.csv
+reports/*
+!reports/.gitkeep
+review/
+build/
+
+# Python and tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.zip
+.DS_Store

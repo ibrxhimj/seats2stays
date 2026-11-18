@@ -1,0 +1,8 @@
+# One command:  docker compose up --build   then open http://localhost:8000
+services:
+  simulator:
+    build: .
+    image: seats2stays
+    ports:
+      - "8000:8000"
+    restart: unless-stopped

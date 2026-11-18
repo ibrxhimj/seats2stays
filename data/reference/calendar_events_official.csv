@@ -1,0 +1,48 @@
+event,key_year,start_date,end_date,source,active
+ramadan,1443,2022-04-02,2022-05-01,inferred_from_official_eid,True
+ramadan,1444,2023-03-23,2023-04-20,inferred_from_official_eid,True
+ramadan,1445,2024-03-11,2024-04-09,inferred_from_official_eid,True
+ramadan,1446,2025-03-01,2025-03-29,inferred_from_official_eid,True
+ramadan,1447,2026-02-18,2026-03-19,official: Ramadan began Wed 18 Feb 2026 and completed 30 days (Shawwal crescent not sighted; Eid Fri 20 Mar - UAE announcement 18 Mar 2026),True
+ramadan,1448,2027-02-08,2027-03-08,"ESTIMATED: UAE astronomy forecast 1 Ramadan = Mon 8 Feb 2027 (The National, 9 Sep 2026); end 8 or 9 Mar; confirm by moon sighting on 7 Feb 2027",True
+eid_al_fitr,1443,2022-04-30,2022-05-04,official_uae_public_holiday,True
+eid_al_fitr,1444,2023-04-20,2023-04-23,official_uae_public_holiday,True
+eid_al_fitr,1445,2024-04-08,2024-04-12,official_uae_public_holiday: MoHRE private sector 29 Ramadan (8 Apr) to 3 Shawwal (12 Apr) 2024; Eid Wed 10 Apr,True
+eid_al_fitr,1446,2025-03-29,2025-04-01,official_uae_public_holiday,True
+eid_al_fitr,1447,2026-03-19,2026-03-22,official_uae_public_holiday: FAHR + MoHRE 23 Feb 2026 - 19-22 Mar (22 Mar included because Ramadan completed 30 days),True
+arafat_day,1443,2022-07-08,2022-07-08,official_uae_public_holiday,True
+arafat_day,1444,2023-06-27,2023-06-27,official_uae_public_holiday,True
+arafat_day,1445,2024-06-15,2024-06-15,official_uae_public_holiday,True
+arafat_day,1446,2025-06-05,2025-06-05,official_uae_public_holiday,True
+arafat_day,1447,2026-05-26,2026-05-26,official_uae_public_holiday: MoHRE 18 May 2026 - Arafat Tue 26 May (Cabinet resolution); public sector also off Mon 25 May,True
+eid_al_adha,1443,2022-07-09,2022-07-11,official_uae_public_holiday,True
+eid_al_adha,1444,2023-06-28,2023-06-30,official_uae_public_holiday,True
+eid_al_adha,1445,2024-06-16,2024-06-18,official_uae_public_holiday,True
+eid_al_adha,1446,2025-06-06,2025-06-08,official_uae_public_holiday,True
+eid_al_adha,1447,2026-05-27,2026-05-29,official_uae_public_holiday: MoHRE 18 May 2026 - Eid Wed 27 to Fri 29 May (Cabinet resolution),True
+islamic_new_year,1444,2022-07-30,2022-07-30,official_uae_public_holiday,True
+islamic_new_year,1445,2023-07-21,2023-07-21,official_uae_public_holiday: moved to Fri 21 Jul 2023 (public and private sector),True
+islamic_new_year,1446,2024-07-07,2024-07-07,official_uae_public_holiday,True
+islamic_new_year,1447,2025-06-27,2025-06-27,official_uae_public_holiday: MoHRE 16 Jun 2025 - Fri 27 Jun,True
+islamic_new_year,1448,2026-06-15,2026-06-15,official_uae_public_holiday: FAHR + MoHRE 3 Jun 2026 - Mon 15 Jun,True
+mawlid,1444,2022-10-08,2022-10-08,official_uae_public_holiday,True
+mawlid,1445,2023-09-29,2023-09-29,official_uae_public_holiday: MoHRE 18 Sep 2023 - Fri 29 Sep,True
+mawlid,1446,2024-09-15,2024-09-15,official_uae_public_holiday: WAM Sep 2024 - Sun 15 Sep,True
+mawlid,1447,2025-09-05,2025-09-05,official_uae_public_holiday: MoHRE 26 Aug 2025 - Fri 5 Sep,True
+mawlid,1448,2026-08-28,2026-08-28,official_uae_public_holiday: UAE Government Media Office 7 Aug 2026 - Fri 28 Aug,True
+new_year,2022,2022-01-01,2022-01-01,official_uae_public_holiday,True
+new_year,2023,2023-01-01,2023-01-01,official_uae_public_holiday,True
+new_year,2024,2024-01-01,2024-01-01,official_uae_public_holiday,True
+new_year,2025,2025-01-01,2025-01-01,official_uae_public_holiday,True
+new_year,2026,2026-01-01,2026-01-01,official_uae_public_holiday,True
+new_year,2027,2027-01-01,2027-01-01,official_uae_public_holiday: fixed 1 Jan (Cabinet list),True
+commemoration_day,2022,2022-12-01,2022-12-01,official_uae_public_holiday: MoHRE 18 Nov 2022 - 1-3 Dec with National Day,True
+commemoration_day,2023,2023-12-01,2023-12-01,official_uae_public_holiday_list_excludes,False
+commemoration_day,2024,2024-12-01,2024-12-01,official_uae_public_holiday_list_excludes,False
+commemoration_day,2025,2025-12-01,2025-12-01,official_uae_public_holiday_list_excludes,False
+commemoration_day,2026,2026-12-01,2026-12-01,official_uae_public_holiday_list_excludes,False
+national_day,2022,2022-12-02,2022-12-03,official_uae_public_holiday: MoHRE 18 Nov 2022 - 1-3 Dec with Commemoration Day,True
+national_day,2023,2023-12-02,2023-12-04,official_uae_public_holiday: MoHRE 24 Nov 2023 - 2-4 Dec paid holiday (Sat-Mon); CORRECTED from 2-3 Dec on 3 Oct 2026,True
+national_day,2024,2024-12-02,2024-12-03,official_uae_public_holiday: MoHRE 23 Nov 2024 - 2-3 Dec,True
+national_day,2025,2025-12-01,2025-12-02,official_uae_public_holiday: MoHRE + FAHR Nov 2025 - Mon 1 and Tue 2 Dec (moved by Cabinet); CORRECTED from 2-3 Dec on 3 Oct 2026,True
+national_day,2026,2026-12-02,2026-12-03,"scheduled_uae_public_holiday: Cabinet holiday list 2-3 Dec 2026 (Wed-Thu; Emirates 24|7, 7 Aug 2026); the MoE 2026-27 school calendar gives schools 2-4 Dec (Wed-Fri); the Cabinet may move it as in 2025 - re-check when announced (Nov 2026)",True

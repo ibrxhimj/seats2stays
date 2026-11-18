@@ -1,0 +1,18 @@
+year,metric,value,source
+2022,dct_hotel_guests,4100000,DCT Annual Report 2022
+2023,dct_hotel_guests,5000000,DCT (Tourism Strategy 2030 launch; approximate)
+2024,dct_hotel_guests,5800000,DCT 2024 Hotel Performance Report
+2025,dct_hotel_guests,5900000,DCT Annual Report 2025
+2022,dct_alos_nights,2.7,DCT Annual Report 2022
+2023,dct_alos_nights,2.8,DCT (user benchmark)
+2024,dct_alos_nights,3.2,DCT (user benchmark; inconsistent with trend - see data card)
+2025,dct_alos_nights,2.9,DCT Annual Report 2025
+2025,dct_intl_guest_growth,0.10,DCT Annual Report 2025 (led by India / Russia / UK)
+2022,abu_dhabi_airports_movements,15900000,Abu Dhabi Airports
+2023,abu_dhabi_airports_movements,22935000,Abu Dhabi Airports (Arabian Business)
+2024,abu_dhabi_airports_movements,29400000,Abu Dhabi Airports
+2025,abu_dhabi_airports_movements,33000000,Abu Dhabi Airports Jan 2026 press release (>33M)
+2024,auh_passenger_movements,28800000,Abu Dhabi Airports / The National
+2025,auh_passenger_movements,32500000,Abu Dhabi Airports Jan 2026 press release
+2024,dct_hotel_occupancy,0.79,DCT 2024 Hotel Performance Report
+2025,dct_hotel_occupancy,0.81,DCT Annual Report 2025

@@ -1,0 +1,46 @@
+nationality,group,festivals,criterion
+AZERBAIJAN,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; both Eids are national public holidays
+BAHRAIN,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; both Eids are national public holidays
+EGYPT,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; both Eids are national public holidays
+JORDAN,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; both Eids are national public holidays
+KAZAKHSTAN,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; Eid al-Adha is a national public holiday
+KUWAIT,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; both Eids are national public holidays
+LEBANON,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; both Eids are national public holidays
+OMAN,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; both Eids are national public holidays
+QATAR,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; both Eids are national public holidays
+SAUDI ARABIA,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; both Eids are national public holidays
+TURKEY,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; both Eids are national public holidays
+UZBEKISTAN,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; both Eids are national public holidays
+AUSTRIA,easter,easter,Easter Monday is a national public holiday
+BELGIUM,easter,easter,Easter Monday is a national public holiday
+CANADA,easter,easter,Good Friday is a national public holiday
+FRANCE,easter,easter,Easter Monday is a national public holiday
+GERMANY,easter,easter,Good Friday and Easter Monday are national public holidays
+IRELAND,easter,easter,Easter Monday is a national public holiday
+ITALY,easter,easter,Easter Monday is a national public holiday
+NETHERLANDS,easter,easter,Easter Monday is a national public holiday
+PHILIPPINES,easter,easter,Maundy Thursday and Good Friday are national public holidays
+POLAND,easter,easter,Easter Monday is a national public holiday
+SPAIN,easter,easter,Good Friday is a national public holiday
+SWITZERLAND,easter,easter,Good Friday and Easter Monday are public holidays in almost all cantons
+UNITED KINGDOM,easter,easter,Good Friday and Easter Monday are bank holidays
+CHINA,lunar_new_year,lunar_new_year,Spring Festival is the main national holiday (7-8 days off)
+SOUTH KOREA,lunar_new_year,lunar_new_year,Seollal is a 3-day national holiday
+INDIA,diwali,diwali,Deepavali is the main national festival holiday
+ARMENIA,none,,No moving main holiday (main holidays are fixed-date: New Year and Christmas on 6 January)
+ISRAEL,none,,"Jewish holidays move between Gregorian months (Rosh Hashanah and Sukkot fall in Sept or Oct); not modelled because Israel's 2023-2025 data is dominated by war-time collapse and recovery (seats -86% to +373%), so a festival effect cannot be estimated reliably"
+JAPAN,none,,Main holidays are fixed-date (New Year; Golden Week 29 April to 5 May; Obon in mid-August)
+RUSSIAN FEDERATION,none,,Main holidays are fixed-date (New Year 1-8 January; May holidays); Orthodox Easter is a Sunday not a day off
+UNITED STATES OF AMERICA,none,,No federal Easter holiday; main holidays fall in the same month every year (Thanksgiving; Christmas)
+MOROCCO,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; both Eids are national public holidays
+PAKISTAN,muslim_majority,ramadan;eid_al_fitr;eid_al_adha,Muslim-majority population; both Eids are national public holidays
+AUSTRALIA,easter,easter,Good Friday and Easter Monday are national public holidays
+BRAZIL,easter,easter,Good Friday is a national public holiday
+CZECHIA,easter,easter,Good Friday and Easter Monday are national public holidays
+DENMARK,easter,easter,Maundy Thursday and Good Friday and Easter Monday are national public holidays
+FINLAND,easter,easter,Good Friday and Easter Monday are national public holidays
+MEXICO,easter,easter,Holy Thursday and Good Friday are official non-working days; Semana Santa is the national school vacation
+NORWAY,easter,easter,Maundy Thursday and Good Friday and Easter Monday are national public holidays
+SOUTH AFRICA,easter,easter,Good Friday and Family Day (Easter Monday) are national public holidays
+SWEDEN,easter,easter,Good Friday and Easter Monday are national public holidays
+ROMANIA,orthodox_easter,orthodox_easter,Orthodox Good Friday and Easter Monday are national public holidays

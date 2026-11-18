@@ -1,0 +1,14 @@
+# The image is built from the bundle (only what the simulator needs), never from raw competition data.
+.git
+.gitignore
+.pytest_cache
+**/__pycache__
+**/*.pyc
+build
+data/raw
+data/interim
+tests
+reports
+docs
+review
+*.zip

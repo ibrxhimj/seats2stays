@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seats2Stays — Abu Dhabi flight to hotel demand simulator</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%23163a46%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-family=%27Georgia,serif%27 font-size=%2716%27 font-weight=%27700%27 text-anchor=%27middle%27 fill=%27white%27%3ES2S%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/app.css">
+<script src="vendor/d3.min.js"></script>
+<script src="vendor/topojson-client.min.js"></script>
+</head>
+<body>
+<div class="app" data-tab="simulator">
+  <header class="top">
+    <div class="brand"><span class="wordmark">Seats<i>2</i>Stays</span><span class="tagline">How flight changes become hotel nights in Abu Dhabi</span></div>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#simulator" data-tab="simulator" aria-current="page">Simulator</a>
+      <a href="#moves" data-tab="moves">What moves guests</a>
+      <a href="#know" data-tab="know">How we know</a>
+    </nav>
+    <a class="trust" href="#know" data-tab="know"><span class="tick" aria-hidden="true"></span><span><span class="long">Back-tested: monthly international guest nights within</span><span class="short">Back-tested: monthly international total within</span> <b id="trust-range"></b> <u>How we know</u></span></a>
+  </header>
+
+  <aside class="rail" aria-label="Your scenario">
+    <div><h2>Your scenario</h2><p class="sub" id="horizon-note"></p></div>
+    <div><h3>Start from</h3><div class="presets" id="presets"></div></div>
+    <div class="changes">
+      <div class="h3row"><h3>Changes</h3><button type="button" class="link" id="clear" hidden>Clear all</button></div>
+      <div class="strips" id="strips"></div>
+      <button type="button" class="add" id="add-change">Add a change</button>
+    </div>
+    <div class="resp">
+      <h3 id="resp-h">Check-in response</h3>
+      <div class="seg" role="group" aria-labelledby="resp-h" id="response"></div>
+      <p id="resp-note"></p>
+    </div>
+    <div class="foot">
+      <div id="pinned"></div>
+      <div class="downloads"><button type="button" class="link" id="dl-csv">Download results (CSV)</button><button type="button" class="link" id="dl-json">Download scenario (JSON)</button></div>
+    </div>
+  </aside>
+
+  <main id="tab-simulator">
+    <section class="lever" aria-label="Change a market's flights">
+      <div class="lever-q">
+        <label for="lever-market">Add a change: flights from</label>
+        <select id="lever-market"></select>
+        <span>in</span>
+        <div class="seg" role="group" aria-label="Season" id="lever-season"></div>
+      </div>
+      <div class="lever-row">
+        <div class="lever-track" id="lever-track">
+          <input type="range" id="lever-slider" min="0" max="0" step="1" value="0" aria-describedby="lever-read">
+          <span class="today-tick" id="today-tick" aria-hidden="true"></span>
+        </div>
+        <div class="lever-read" id="lever-read" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <div class="viewing"><span id="viewing"></span><button type="button" class="pin-a" id="pin">Pin as A to compare</button></div>
+    <p class="lead" id="lead"></p>
+    <section class="stream" aria-label="From seats to guest nights">
+      <div class="stream-stage" id="stream"></div>
+      <div class="outcome">
+        <div class="big" id="big"></div>
+        <div class="unit">guest nights</div>
+        <div class="via" id="via"></div>
+        <div class="range"><svg id="range" aria-hidden="true"></svg><p id="range-text"></p></div>
+        <div class="occ" id="occ"></div>
+      </div>
+      <p class="why" id="why" hidden></p>
+      <p class="per100" id="per100"></p>
+    </section>
+    <div id="warnings"></div>
+    <section class="compare" id="compare" aria-label="Comparison with scenario A" hidden></section>
+    <div class="split">
+      <section>
+        <div class="h"><h2>Where the guests come from</h2><span class="hint">By guest nationality, not flight origin</span></div>
+        <div class="where-body"><div class="map"><svg id="map" role="img" aria-label="Map of the change by nationality"></svg></div><ul class="list" id="list"></ul></div>
+        <p class="method">A country's flights are linked to its nationals' hotel stays by the response measured in the data, which already counts other passports on board and nationals arriving by other routes. Click a country to change its flights, or to open a new route if it has none.</p>
+      </section>
+      <section>
+        <div class="h"><h2>When they stay</h2><div class="seg" id="when-view" role="group" aria-label="View"><button type="button" data-view="month" aria-pressed="true">By month</button><button type="button" data-view="day" aria-pressed="false">By day</button></div></div>
+        <div class="months"><svg id="months" role="img" aria-label="Change in guest nights by month"></svg></div>
+        <p class="when-note" id="when-note" hidden>The nights below update when you let go of the slider.</p>
+        <div class="legend" id="legend"></div>
+      </section>
+    </div>
+    <details class="notes" id="notes-box"><summary id="notes-summary"></summary><ul id="notes"></ul></details>
+  </main>
+  <main id="tab-moves" hidden aria-label="What moves guests"></main>
+  <main id="tab-know" hidden aria-label="How we know"></main>
+</div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

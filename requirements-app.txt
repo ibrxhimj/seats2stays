@@ -1,0 +1,11 @@
+# Runtime of the simulator app only (what the Docker image installs). Exact versions: the ones the tests ran on.
+# The full pipeline (rebuilding the data, the tests) uses requirements.txt.
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+pyarrow==25.0.1
+PyYAML==6.0.3
+fastapi==0.142.2
+starlette==1.6.0
+pydantic==2.13.5
+uvicorn==0.53.0

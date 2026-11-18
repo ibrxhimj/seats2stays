@@ -1,0 +1,48 @@
+# ATP 2026 — flight → hotel demand simulator
+# Single source of truth for paths, dates and constants. Change here, never in code.
+
+paths:
+  raw: data/raw
+  reference: data/reference
+  interim: data/interim        # cached typed copies of the Excel files (keyed by checksum)
+  processed: data/processed    # model-ready tables (parquet)
+  external: data/external      # public data outside the competition pack (SCAD releases, research pack)
+  reports: reports
+
+raw_files:
+  flights: flight_data.xlsx
+  intl_train: data_international_train.xlsx
+  intl_test: data_international_test.xlsx
+  dom_train: data_domestic_train.xlsx
+  dom_test: data_domestic_test.xlsx
+
+# expected SHA-256 of the raw files as received (build fails if a raw file changes silently)
+raw_sha256:
+  flight_data.xlsx: 5520c0a95126636ee90084209c8e4110bd0b0b095d64cc9dbac37356ae00a9f8
+  data_international_train.xlsx: beaa3c39d3f9bf891667fdb50a2584e56a3b02dc3c459b17ea312022415fad44
+  data_international_test.xlsx: 9e0379f5798c8b861bf11b2694ed911c3f8dd4530713ee94523a4b3f8fbbb931
+  data_domestic_train.xlsx: 8aade22d507d92ded353de395c6ea413536fb0a0741efc2c4653f6ea804a5208
+  data_domestic_test.xlsx: 3eb97c30bf25a84cfe7ffb2df76af8fed57785c2bc4c16a229974e7e9b513e37
+
+dates:
+  hotel_start: 2022-01-01
+  hotel_train_end: 2025-07-31
+  test_start: 2025-08-01
+  test_end: 2026-02-28
+  flights_daily_start: 2023-01-01   # before this date the flight file is MONTHLY; daily tables never go earlier
+  calendar_start: 2021-11-01
+  calendar_end: 2027-12-31
+  model_train_start: 2023-01-01     # 2022 excluded from fitting: COVID recovery + monthly-only flights
+  horizon_start: 2026-03-01        # Phase 3 scenario horizon: the 12 months after the data ends
+  horizon_end: 2027-02-28
+
+folds:                               # rolling-origin validation; A is primary (same season as official test)
+  A: {train_start: 2023-01-01, train_end: 2024-07-31, holdout_start: 2024-08-01, holdout_end: 2025-02-28}
+  B: {train_start: 2023-01-01, train_end: 2024-12-31, holdout_start: 2025-01-01, holdout_end: 2025-07-31}
+  final: {train_start: 2023-01-01, train_end: 2025-07-31, holdout_start: 2025-08-01, holdout_end: 2026-02-28}
+
+constants:
+  max_stay_lag_days: 45              # stock-flow window K; lags must be fully populated before any forecast date
+  suppression_threshold: 10          # hotel rows below this count are absent from the files
+  partial_day_ratio: 0.80            # flight day flagged if row count < 80% of trailing-28-day median
+  lf_cap: 1.0                        # capped load factor for simulator use (raw kept alongside)

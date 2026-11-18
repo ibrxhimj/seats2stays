@@ -1,0 +1,46 @@
+nationality,iso3,m49_subregion,is_gcc,has_flight_data,flight_country_name,first_flight_date,n_departure_cities,n_airlines
+ARMENIA,ARM,Western Asia,False,True,Armenia,2022-02-01,1,2
+AUSTRALIA,AUS,Australia and New Zealand,False,False,,,0,0
+AUSTRIA,AUT,Western Europe,False,True,Austria,2022-01-01,1,3
+AZERBAIJAN,AZE,Western Asia,False,True,Azerbaijan,2022-01-01,2,4
+BAHRAIN,BHR,Western Asia,True,True,Bahrain,2022-01-01,1,4
+BELGIUM,BEL,Western Europe,False,True,Belgium,2022-01-01,1,1
+BRAZIL,BRA,Latin America and the Caribbean,False,False,,,0,0
+CANADA,CAN,Northern America,False,True,Canada,2022-01-01,1,1
+CHINA,CHN,Eastern Asia,False,True,China,2022-01-01,4,5
+CZECHIA,CZE,Eastern Europe,False,False,,,0,0
+DENMARK,DNK,Northern Europe,False,False,,,0,0
+EGYPT,EGY,Northern Africa,False,True,Egypt,2022-01-01,8,7
+FINLAND,FIN,Northern Europe,False,False,,,0,0
+FRANCE,FRA,Western Europe,False,True,France,2022-01-01,2,3
+GERMANY,DEU,Western Europe,False,True,Germany,2022-01-01,8,6
+INDIA,IND,Southern Asia,False,True,India,2022-01-01,25,9
+IRELAND,IRL,Northern Europe,False,True,Ireland,2022-01-01,2,2
+ISRAEL,ISR,Western Asia,False,True,Israel,2022-01-01,2,4
+ITALY,ITA,Southern Europe,False,True,Italy,2022-01-01,5,5
+JAPAN,JPN,Eastern Asia,False,True,Japan,2022-01-01,3,1
+JORDAN,JOR,Western Asia,False,True,Jordan,2022-01-01,2,4
+KAZAKHSTAN,KAZ,Central Asia,False,True,Kazakhstan,2022-01-01,5,4
+KUWAIT,KWT,Western Asia,True,True,Kuwait,2022-01-01,1,4
+LEBANON,LBN,Western Asia,False,True,Lebanon,2022-01-01,1,5
+MEXICO,MEX,Latin America and the Caribbean,False,False,,,0,0
+MOROCCO,MAR,Northern Africa,False,False,,,0,0
+NETHERLANDS,NLD,Western Europe,False,True,Netherlands,2022-01-01,2,3
+NORWAY,NOR,Northern Europe,False,False,,,0,0
+OMAN,OMN,Western Asia,True,True,Oman,2022-01-01,2,4
+PAKISTAN,PAK,Southern Asia,False,False,,,0,0
+PHILIPPINES,PHL,South-eastern Asia,False,True,Philippines,2022-01-01,1,2
+POLAND,POL,Eastern Europe,False,True,Poland,2022-03-01,3,3
+QATAR,QAT,Western Asia,True,True,Qatar,2022-01-01,1,6
+ROMANIA,ROU,Eastern Europe,False,False,,,0,0
+RUSSIAN FEDERATION,RUS,Eastern Europe,False,True,Russian Federation,2022-01-01,10,8
+SAUDI ARABIA,SAU,Western Asia,True,True,Saudi Arabia,2022-01-01,6,11
+SOUTH AFRICA,ZAF,Sub-Saharan Africa,False,False,,,0,0
+SOUTH KOREA,KOR,Eastern Asia,False,True,South Korea,2022-01-01,1,2
+SPAIN,ESP,Southern Europe,False,True,Spain,2022-01-01,3,1
+SWEDEN,SWE,Northern Europe,False,False,,,0,0
+SWITZERLAND,CHE,Western Europe,False,True,Switzerland,2022-01-01,2,2
+TURKEY,TUR,Western Asia,False,True,Turkey,2022-01-01,7,7
+UNITED KINGDOM,GBR,Northern Europe,False,True,United Kingdom,2022-01-01,2,2
+UNITED STATES OF AMERICA,USA,Northern America,False,True,United States of America,2022-01-01,12,3
+UZBEKISTAN,UZB,Central Asia,False,True,Uzbekistan,2022-05-01,3,5
